@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://tanishq-portfolio-backend.onrender.com ',
+  origin: 'https://tanishq-portfolio-frontend.onrender.com',
   credentials: true
 }));
 app.use(express.json());
